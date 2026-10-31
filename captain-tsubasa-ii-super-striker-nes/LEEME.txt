@@ -1,5 +1,5 @@
 Captain Tsubasa Vol. II: Super Striker (NES) - Traducción al español
-Vorvek.Loc Traducciones - versión 1.0
+Vorvek.Loc Traducciones - versión 1.1
 ================================================================
 
 ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
@@ -21,15 +21,15 @@ un parche para el archivo con cabecera y otro para el archivo sin cabecera:
     Original:  CRC32 31b44c65  SHA-1 ad2ec724d6e2dc8e396995431dd2e10995222ed8
 
   Resultado de los dos parches (655.376 bytes, con cabecera):
-               CRC32 a6b65c53  SHA-1 d038f2b208d15273d496acdfcb22041c372f1ea8
+               CRC32 8a272870  SHA-1 512749dc9d219dce323660c81c0c1a7273b264ed
 
 Si tu archivo tiene otra cabecera de 16 bytes, quítala y usa el parche sin cabecera: el resultado sale
 igual, con su propia cabecera.
 
 Parches:
 
-  Captain Tsubasa II - Super Striker (Japan) [T-Es Vorvek.Loc v1.0].xdelta
-  Captain Tsubasa II - Super Striker (Japan) (sin cabecera) [T-Es Vorvek.Loc v1.0].xdelta
+  Captain Tsubasa II - Super Striker (Japan) [T-Es Vorvek.Loc v1.1].xdelta
+  Captain Tsubasa II - Super Striker (Japan) (sin cabecera) [T-Es Vorvek.Loc v1.1].xdelta
 
 Cómo aplicar el parche
 ----------------------
@@ -65,6 +65,5 @@ Notas
   6, y los nombres más largos acaban en punto (Babin.). Algunos nombres usan letras más estrechas para caber.
 - La pantalla de contraseña usa letras, números y signos que no se confunden entre sí. La casilla F (Fin)
   termina de escribirla.
-- El rótulo MEETING de las reuniones se queda en inglés.
 
 Más información: https://github.com/vorvek/Vorvek.LocTraducciones/wiki/Captain-Tsubasa-II
