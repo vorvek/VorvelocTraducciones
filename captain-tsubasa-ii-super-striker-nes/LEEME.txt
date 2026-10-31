@@ -61,10 +61,19 @@ Notas
 - Becky Pearson: Youko Katagiri se creó para este juego y no aparece en ninguna otra parte. Es la hermana de
   Katagiri, que en el doblaje se llama Kirk Pearson, así que aquí se llama Becky Pearson.
 - El entrenador Takahashi mantiene su nombre.
-- Se corrige un fallo del juego original: desde Francia, los puntos de experiencia de las acciones del
-  partido se hundían (un gol daba 1 punto en lugar de 49).
 - Algunos nombres largos usan combinaciones de dos letras más estrechas en un único espacio para caber.
 - La pantalla de contraseña usa letras, números y signos que no se confunden entre sí. La casilla F (Fin)
   termina de escribirla.
+
+Fallo del juego corregido
+-------------------------
+El parche corrige un fallo de experiencia del juego original. Cada partido tiene un valor de recompensa (W),
+y los puntos de una acción, como marcar un gol o ganar un duelo, salen de W / 4. W ocupa dos bytes, y al
+dividirlo el código original movía esos bytes en el orden equivocado y perdía el byte alto. Mientras W no
+pasa de 255 no se nota. Desde Francia, W vale 266 o más, y el cálculo solo usaba lo que pasaba de 256: con
+266 usaba 10, así que un gol daba 1 punto en lugar de 49.
+
+Con el parche, esos puntos siguen subiendo hasta el final del juego. Los partidos anteriores a Francia no
+cambian, ni tampoco la experiencia que se recibe por ganar o perder un partido.
 
 Más información: https://github.com/vorvek/Vorvek.LocTraducciones/wiki/Captain-Tsubasa-II
