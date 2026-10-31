@@ -1,5 +1,5 @@
-Captain Tsubasa Vol. II: Super Striker (NES) - Traducción al español
-Vorvek.Loc Traducciones - versión 1.2
+Captain Tsubasa Vol. II: Super Striker (NES) - Localización al español
+Vorvek.Loc Traducciones - versión 1.3
 ================================================================
 
 ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
@@ -7,8 +7,8 @@ Vorvek.Loc Traducciones - versión 1.2
 ▓▓▓▓▒░____________________________________________░▒▓▓▓▓
 ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
 
-Este parche traduce al español "Captain Tsubasa Vol. II: Super Striker" (Tecmo, 1990) para Famicom. La
-traducción se ha hecho desde el texto japonés, con los nombres del doblaje español de la serie "Campeones:
+Este parche localiza al español "Captain Tsubasa Vol. II: Super Striker" (Tecmo, 1990) para Famicom. La
+localización se ha hecho desde el texto japonés, con los nombres del doblaje español de la serie "Campeones:
 Oliver y Benji": Oliver, Benji, Tom, Mark Lenders, Julian Ross, el Newteam, el Tojú...
 
 Necesitas el cartucho japonés que coincida con No-Intro: "Captain Tsubasa II - Super Striker (Japan)". Hay
@@ -21,15 +21,15 @@ un parche para el archivo con cabecera y otro para el archivo sin cabecera:
     Original:  CRC32 31b44c65  SHA-1 ad2ec724d6e2dc8e396995431dd2e10995222ed8
 
   Resultado de los dos parches (655.376 bytes, con cabecera):
-               CRC32 2cf8960b  SHA-1 d1953cb7d001659289647eb1c6a591351a8703f1
+               CRC32 2383a9f8  SHA-1 5ba91d6518cc6c3735ce5c4a92977807716ffe2a
 
 Si tu archivo tiene otra cabecera de 16 bytes, quítala y usa el parche sin cabecera: el resultado sale
 igual, con su propia cabecera.
 
 Parches:
 
-  Captain Tsubasa II - Super Striker (Japan) [T-Es Vorvek.Loc v1.2].xdelta
-  Captain Tsubasa II - Super Striker (Japan) (sin cabecera) [T-Es Vorvek.Loc v1.2].xdelta
+  Captain Tsubasa II - Super Striker (Japan) [T-Es Vorvek.Loc v1.3].xdelta
+  Captain Tsubasa II - Super Striker (Japan) (sin cabecera) [T-Es Vorvek.Loc v1.3].xdelta
 
 Cómo aplicar el parche
 ----------------------
@@ -61,8 +61,7 @@ Notas
 - Becky Pearson: Youko Katagiri se creó para este juego y no aparece en ninguna otra parte. Es la hermana de
   Katagiri, que en el doblaje se llama Kirk Pearson, así que aquí se llama Becky Pearson.
 - El entrenador Takahashi mantiene su nombre.
-- Las fichas y las listas de jugadores muestran 9 casillas por nombre. En la pantalla con banquillo solo caben
-  6, y los nombres más largos acaban en punto (Babin.). Algunos nombres usan letras más estrechas para caber.
+- Algunos nombres largos usan combinaciones de dos letras más estrechas en un único espacio para caber.
 - La pantalla de contraseña usa letras, números y signos que no se confunden entre sí. La casilla F (Fin)
   termina de escribirla.
 
