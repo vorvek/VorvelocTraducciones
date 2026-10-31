@@ -1,5 +1,5 @@
 Captain Tsubasa Vol. II: Super Striker (NES) - Traducción al español
-Vorvek.Loc Traducciones - versión 1.1
+Vorvek.Loc Traducciones - versión 1.2
 ================================================================
 
 ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
@@ -21,15 +21,15 @@ un parche para el archivo con cabecera y otro para el archivo sin cabecera:
     Original:  CRC32 31b44c65  SHA-1 ad2ec724d6e2dc8e396995431dd2e10995222ed8
 
   Resultado de los dos parches (655.376 bytes, con cabecera):
-               CRC32 8a272870  SHA-1 512749dc9d219dce323660c81c0c1a7273b264ed
+               CRC32 90c4281b  SHA-1 88a5c27a448b2ba810e4317e0288f2333006c67c
 
 Si tu archivo tiene otra cabecera de 16 bytes, quítala y usa el parche sin cabecera: el resultado sale
 igual, con su propia cabecera.
 
 Parches:
 
-  Captain Tsubasa II - Super Striker (Japan) [T-Es Vorvek.Loc v1.1].xdelta
-  Captain Tsubasa II - Super Striker (Japan) (sin cabecera) [T-Es Vorvek.Loc v1.1].xdelta
+  Captain Tsubasa II - Super Striker (Japan) [T-Es Vorvek.Loc v1.2].xdelta
+  Captain Tsubasa II - Super Striker (Japan) (sin cabecera) [T-Es Vorvek.Loc v1.2].xdelta
 
 Cómo aplicar el parche
 ----------------------
